@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="Slider">
+        <attr name="touchEnabled" format="boolean"/>
+        <attr name="stopScrollingAfterTouchEnabled" format="boolean"/>
+        <attr name="scrollDuration" format="integer"/>
+        <attr name="scrollDelay" format="integer"/>
+    </declare-styleable>
+</resources>

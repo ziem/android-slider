@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainActivity$SlideFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_with_alpha"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="32dp"
+        tools:text="Funny insect"/>
+
+</FrameLayout>

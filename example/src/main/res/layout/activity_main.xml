@@ -1,0 +1,11 @@
+<me.ziem.slider.Slider xmlns:android="http://schemas.android.com/apk/res/android"
+                       xmlns:slider="http://schemas.android.com/apk/res-auto"
+                       xmlns:tools="http://schemas.android.com/tools"
+                       android:id="@+id/pager"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       slider:touchEnabled="true"
+                       slider:scrollDelay="500"
+                       slider:scrollDuration="2000"
+                       slider:stopScrollingAfterTouchEnabled="false"
+                       tools:context=".MainActivity"/>
