@@ -19,8 +19,8 @@ Add Slider view to your xml:
 ### XML
 
     slider:touchEnabled="true"
-    slider:scrollDelay="500"
     slider:scrollDuration="2000"
+    slider:scrollDelay="500"
     slider:stopScrollingAfterTouchEnabled="false"
     
 ### Java
@@ -29,7 +29,7 @@ Add Slider view to your xml:
         
     slider.setTouchEnabled(true); // enables page dragging
     slider.setScrollDuration(2000); // defines page change scroll duration 
-    slider.setScrollDelay(2000); // defines page change delay
+    slider.setScrollDelay(500); // defines page change delay
     slider.setStopScrollingAfterTouchEnabled(false); // disables scrolling after user interaction (e.g. drag)
 
 ## License
