@@ -3,6 +3,8 @@
 Slider implementation based on [ViewPager](http://developer.android.com/reference/android/support/v4/view/ViewPager.html).
 It requires 9+ API level.
 
+![Slider GIF](https://github.com/ziem/android-slider/blob/master/art/slider.gif)
+
 ## Usage
 
 Add Slider view to your xml:
